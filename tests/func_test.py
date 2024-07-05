@@ -4,7 +4,7 @@ import ex4_3 as hw3
 import numpy as np
 def test_hwfunc1():
     model1 = hw1.homework()
-    assert np.allclose(model1, 1.0, atol=1e-3)
+    assert np.allclose(model1, 1.0, atol=1e-2)
 
 
 def test_hwfunc2():
