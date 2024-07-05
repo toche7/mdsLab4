@@ -11,7 +11,7 @@ def homework():
     nn = MLPClassifier(solver='lbfgs', alpha=1e-5,
                    hidden_layer_sizes=(10,10),
                    random_state= 10,
-                   max_iter = 2000)
+                   max_iter = 1000)
     nn.fit(X, y)
     scoreModelNN = nn.score(X, y)
     return scoreModelNN
